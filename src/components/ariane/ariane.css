@@ -1,0 +1,13 @@
+.ariane {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.ariane p {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 2vh;
+}

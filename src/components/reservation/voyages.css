@@ -1,0 +1,38 @@
+/* Style pour la liste des voyages */
+.voyage ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour chaque voyage de la liste */
+.voyage li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour les éléments de chaque voyage */
+.voyage li div {
+    margin-bottom: 1rem;
+}
+
+/* Style pour les boutons "Modifier" et "Supprimer" */
+.voyage button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voyage button:hover {
+    background-color: #0069d9;
+}
+
+.voyage button:active {
+    background-color: #005cbf;
+}

@@ -1,0 +1,49 @@
+
+.my-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0 auto 1rem;
+    color: black;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    cursor: none;
+}
+
+.firstp {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8rem;
+    font-size: 1.6rem;
+    font-family: 'Helvetica';
+    cursor: none;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4rem;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    cursor: none;
+}
+
+.section {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 768px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+}

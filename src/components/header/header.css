@@ -1,0 +1,99 @@
+header img:first-of-type {
+    padding-right: 2vh;
+    width: 5vh;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+
+}
+
+header ul li {
+    list-style-type: none;
+    position: relative;
+    /* Ajout */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    transition: transform 1.5s ease;
+    -webkit-transition: transform 1.5s ease;
+    -moz-transition: transform 1.5s ease;
+    -ms-transition: transform 1.5s ease;
+    -o-transition: transform 1.5s ease;
+}
+
+header ul li:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+
+header ul li:first-of-type {
+    display: flex;
+    align-items: center;
+    cursor: none;
+}
+
+header ul li:last-of-type {
+    display: flex;
+    align-items: center;
+    cursor: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    header nav {
+        position: absolute;
+        top:10%;
+        width: 100%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        height: 50vh;   
+        background-color: white;
+        display: none;
+        
+    }
+
+    header .menu-toggle {
+        display: block;
+        
+    }
+
+    .touch {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            color:white;
+           
+
+    }
+
+    header nav.menu-visible ul {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+
+    }
+}

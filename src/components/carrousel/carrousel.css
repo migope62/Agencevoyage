@@ -1,0 +1,39 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-legend {
+  margin-top: 1rem;
+  margin-bottom: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 80vh;
+  margin: 0 auto;
+  gap: 2vh;
+}
+
+.carousel-image {
+  cursor: pointer;
+  max-width: 65vh;
+  max-height: 45vh;
+  border-radius: 5vh;
+}
+
+.carousel-image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+

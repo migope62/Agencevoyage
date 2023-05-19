@@ -1,0 +1,68 @@
+.pagelist {
+    max-width: 80rem;
+    margin: 0  auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.firstart,
+.secondart,
+.thirdart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.firstart img,
+.secondart img,
+.thirdart img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.firstart .text1,
+.secondart .text2,
+.thirdart .text3 {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.reservation p {
+    margin-bottom: 0.5rem;
+}
+
+.reservation button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0077FF;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    background-color: #005CE6;
+}
+@media (max-width: 768px) {
+
+    .firstart img,
+    .secondart img,
+    .thirdart img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+}

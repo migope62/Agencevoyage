@@ -1,0 +1,88 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 15vh;
+    padding-top: 5vh;
+    left: 0;
+    right: 0;
+    height: 38vh;
+    background-color: #009566;
+    color:black;
+}
+
+footer img {
+    margin-left: 1vh;
+}
+
+.cont {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1 / 2;
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1 / 2;
+    padding: 3vh;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2vh;
+    transition: transform 0.1s ease;
+        -webkit-transition: transform 0.1s ease;
+        -moz-transition: transform 0.1s ease;
+        -ms-transition: transform 0.1s ease;
+        -o-transition: transform 0.1s ease;
+}
+footer a:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+footer p {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    cursor: none;
+    grid-column: 1;
+    grid-row: 1 / 2;
+    font-family: 'Helvetica';
+    font-size: 2vh;
+    transition: transform 0.1s ease;
+        -webkit-transition: transform 0.1s ease;
+        -moz-transition: transform 0.1s ease;
+        -ms-transition: transform 0.1s ease;
+        -o-transition: transform 0.1s ease;
+}
+footer p:hover {
+    transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}
+.resnav a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    footer {
+        display:flex;
+        flex-direction: column;
+        height: 50rem;
+}}
+    
