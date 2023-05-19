@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/agencevoyage/static/css/main.3dfb8040.css",
+    "main.js": "/agencevoyage/static/js/main.2c2ed0cd.js",
+    "index.html": "/agencevoyage/index.html",
+    "main.3dfb8040.css.map": "/agencevoyage/static/css/main.3dfb8040.css.map",
+    "main.2c2ed0cd.js.map": "/agencevoyage/static/js/main.2c2ed0cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfb8040.css",
+    "static/js/main.2c2ed0cd.js"
+  ]
+}
